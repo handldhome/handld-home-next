@@ -1,5 +1,5 @@
-import ServicesGrid from "@/components/ServicesGrid";
-import CTAButton from "@/components/CTAButton";
+import ServicesGrid from "../../components/ServicesGrid";
+import CTAButton from "../../components/CTAButton";
 
 export const metadata = { title: "Services | Handld Home Services" };
 

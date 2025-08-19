@@ -1,5 +1,5 @@
-import PlanComparison from "@/components/PlanComparison";
-import CTAButton from "@/components/CTAButton";
+import PlanComparison from "../../components/PlanComparison";
+import CTAButton from "../../components/CTAButton";
 
 export const metadata = { title: "Membership | Handld Home Services" };
 

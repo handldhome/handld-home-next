@@ -1,5 +1,5 @@
-import HowItWorksSteps from "@/components/HowItWorksSteps";
-import CTAButton from "@/components/CTAButton";
+import HowItWorksSteps from "../../components/HowItWorksSteps";
+import CTAButton from "../../components/CTAButton";
 
 export const metadata = { title: "How It Works | Handld Home Services" };
 
