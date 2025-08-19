@@ -6,25 +6,30 @@ export default function Hero() {
     <section className="section section-cream">
       <div className="container grid md:grid-cols-2 items-center gap-10">
         <div>
+          {/* HEADLINE + SUB — paste your current site's copy here */}
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-brand-navy">
             Home maintenance, handled.
           </h1>
           <p className="mt-4 text-lg text-gray-700">
-            Window washing, gutter cleaning, pressure washing, trash bin cleaning and more—
-            all scheduled and managed for you. Quick signup, set it and forget it.
+            {/* Replace this sentence block with the exact hero subcopy from your current site */}
+            Window washing, gutter cleaning, pressure washing & more — all scheduled and managed for you.
           </p>
           <div className="mt-6 flex items-center gap-4">
-            <CTAButton />
-            <a href="/how-it-works" className="btn btn-ghost no-underline">How it Works</a>
+            <CTAButton>Get My Custom Quote</CTAButton>
+            {/* Removed the “How it Works” ghost button per request */}
           </div>
         </div>
+
         <div className="relative">
-          <div className="card p-4 md:p-6">
+          <div className="card p-0 overflow-hidden">
+            {/* Put your hero image at /public/hero.jpg */}
             <Image
-              src="/hero-placeholder.jpg"
-              alt="Handld team providing exterior home service"
-              width={900} height={600}
-              className="rounded-2xl"
+              src="/hero.jpg"
+              alt="Handld exterior home service"
+              width={1200}
+              height={900}
+              className="w-full h-auto object-cover"
+              priority
             />
           </div>
         </div>
